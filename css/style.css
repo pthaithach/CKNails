@@ -3,7 +3,7 @@
 /*******************************/
 body {
     color: #797979;
-    background: #ffffff;
+    background: #fff2e6;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -13,7 +13,7 @@ h3,
 h4,
 h5, 
 h6 {
-    color: #343148;
+    color: #705127;
 }
 
 h1{
@@ -114,7 +114,7 @@ a:focus {
 }
 
 .top-bar .text h2 {
-    color: #b79769;
+    color: #fcd6a3 ;
     font-weight: 400;
     font-size: 13px;
     letter-spacing: 1px;
@@ -192,7 +192,7 @@ a:focus {
 }
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-    color: #b79769;
+    color: #c55e15;
     transition: none;
     border-radius: 5px;
 }
@@ -296,8 +296,8 @@ span.text-logo{
     margin-bottom: 45px;
     /*padding: 90px 0;*/
     padding: 160px 0 80px 0;
-    /*background: #b79769;*/
-    background-image: linear-gradient(to top, #fff, #ffdbb8, #ffd79f);
+    /*background: #c55e15;*/
+    background-image: linear-gradient(to top, #ffdbb8, #ffd79f);
     overflow: hidden;
 }
 
@@ -417,7 +417,7 @@ span.text-logo{
 /*******************************/
 .page-header {
     position: relative;
-    margin-bottom: 45px;
+    /*margin-bottom: 45px;*/
     padding: 120px 0 70px 0;
     text-align: center;
     background-image: linear-gradient(to left, #fff, #fffbf7, #ffdbb8);
@@ -425,7 +425,7 @@ span.text-logo{
 
 .page-header h2 {
     position: relative;
-    color: #b79769;
+    color: #c55e15;
     font-size: 45px;
     font-weight: 300;
     font-family: 'Yusei Magic', sans-serif;
@@ -440,7 +440,7 @@ span.text-logo{
 }
 
 .page-header a:hover {
-    color: #b79769;
+    color: #c55e15;
 }
 
 .page-header a::after {
@@ -486,7 +486,7 @@ span.text-logo{
     max-width: 600px;
     margin: 0 auto;
     margin-bottom: 45px;
-
+    z-index: 7;
     /*display: none;*/
 }
 
@@ -498,8 +498,12 @@ span.text-logo{
     position: relative;
     font-size: 16px;
     font-weight: 600;
-    background: #ffffff;
-    color: #b79769;
+    background: #fff2e6;
+    color: #c55e15;
+}
+.top-services .section-header p{
+    background: #ecdccd;
+    color: #c55e15;
 }
 
 .section-header p::after {
@@ -509,7 +513,7 @@ span.text-logo{
     top: 11px;
     right: -30px;
     left: -30px;
-    background: #b79769;
+    background: #c55e15;
     z-index: -1;
 }
 
@@ -573,7 +577,7 @@ span.text-logo{
 
 .about .about-text a.btn:hover {
     color: #343148;
-    background: #b79769;
+    background: #c55e15;
 }
 
 @media (max-width: 767.98px) {
@@ -590,7 +594,7 @@ span.text-logo{
 .service {
     position: relative;
     width: 100%;
-    padding: 45px 0 15px 0;
+    padding: 60px 0 45px 0;
 }
 
 .service .service-item {
@@ -602,6 +606,7 @@ span.text-logo{
     border: 1px solid rgba(0, 0, 0, .07);
     transition: .3s;
     border-radius: 8px;
+    background: #ffe5cc;
 }
 
 .service .service-item:hover,
@@ -709,7 +714,11 @@ span.text-logo{
 /*******************************/
 .class {
     position: relative;
-    padding: 45px 0 45px 0;
+    padding: 60px 0 60px 0;
+    background: #eddccc;
+}
+.class.gallery{
+    background: #fff2e6;
 }
 
 .class #class-filter {
@@ -737,7 +746,7 @@ span.text-logo{
 .class #class-filter li:hover,
 .class #class-filter li.filter-active {
     background: #343148;
-    color: #b79769;
+    color: #c55e15;
 }
 
 .class .class-item {
@@ -765,10 +774,11 @@ span.text-logo{
 
 .class .class-text {
     position: relative;
-    padding: 30px 30px 25px 30px;
-    border-right: 1px solid rgba(0, 0, 0, .07);
-    border-bottom: 1px solid rgba(0, 0, 0, .07);
-    border-left: 1px solid rgba(0, 0, 0, .07);
+    padding: 20px 0;
+    text-align: center;
+    /*border-right: 1px solid rgba(0, 0, 0, .07);*/
+    /*border-bottom: 1px solid rgba(0, 0, 0, .07);*/
+    /*border-left: 1px solid rgba(0, 0, 0, .07);*/
 }
 
 .class .class-text h2 {
@@ -793,7 +803,7 @@ span.text-logo{
     width: 40px;
     height: 40px;
     border-radius: 40px;
-    background: #b79769;
+    background: #c55e15;
 }
 
 .class .class-teacher h3 {
@@ -815,13 +825,13 @@ span.text-logo{
     font-size: 30px;
     font-weight: 100;
     color: #343148;
-    background: #b79769;
+    background: #c55e15;
     border-radius: 40px;
     transition: .3s;
 }
 
 .class .class-wrap:hover .class-teacher a {
-    color: #b79769;
+    color: #c55e15;
     background: #343148;
 }
 
@@ -947,13 +957,13 @@ span.text-logo{
 
 .price .price-header {
     padding: 30px;
-    background: #b79769;
+    background: #c55e15;
     color: #343148;
 }
 
 .price .price-item.featured-item .price-header {
     background: #343148;
-    color: #b79769;
+    color: #c55e15;
 }
 
 .price .price-status {
@@ -971,7 +981,7 @@ span.text-logo{
     color: #343148;
     font-size: 14px;
     line-height: 14px;
-    background: #b79769;
+    background: #c55e15;
 }
 
 .price .price-title h2 {
@@ -1001,7 +1011,7 @@ span.text-logo{
 }
 
 .price .price-item.featured-item h2 {
-    color: #b79769;
+    color: #c55e15;
 }
 
 .price .price-body {
@@ -1038,19 +1048,19 @@ span.text-logo{
     font-weight: 600;
     letter-spacing: 1px;
     border-radius: 0;
-    background: #b79769;
+    background: #c55e15;
     transition: .3s;
 }
 
 .price .price-action a:hover,
 .price .price-item.featured-item .price-action a {
-    color: #b79769;
+    color: #c55e15;
     background: #343148;
 }
 
 .price .price-item.featured-item .price-action a:hover {
     color: #343148;
-    background: #b79769;
+    background: #c55e15;
 }
 
 
@@ -1060,7 +1070,7 @@ span.text-logo{
 .team {
     position: relative;
     width: 100%;
-    padding: 45px 0 45px 0;
+    padding: 60px 0 60px 0;
 }
 
 .team .team-item {
@@ -1228,7 +1238,7 @@ span.text-logo{
 }
 
 .testimonial .owl-item.center .testimonial-text h3 {
-    color: #b79769;
+    color: #c55e15;
 }
 
 .testimonial .owl-item.center .testimonial-text p,
@@ -1247,7 +1257,7 @@ span.text-logo{
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background: #b79769;
+    background: #c55e15;
 }
 
 .testimonial .owl-dot.active {
@@ -1320,7 +1330,7 @@ span.text-logo{
 }
 
 .blog .blog-item a.btn:hover {
-    color: #b79769;
+    color: #c55e15;
 }
 
 .blog .blog-meta {
@@ -1356,7 +1366,7 @@ span.text-logo{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #b79769;
+    color: #c55e15;
     background: #343148;
     font-size: 22px;
     transition: .3s;
@@ -1365,7 +1375,7 @@ span.text-logo{
 .blog .owl-nav .owl-prev:hover,
 .blog .owl-nav .owl-next:hover {
     color: #343148;
-    background: #b79769;
+    background: #c55e15;
 }
 
 .blog .pagination .page-link {
@@ -1376,7 +1386,7 @@ span.text-logo{
 
 .blog .pagination .page-link:hover,
 .blog .pagination .page-item.active .page-link {
-    color: #b79769;
+    color: #c55e15;
     background: #343148;
 }
 
@@ -1418,7 +1428,7 @@ span.text-logo{
 .portfolio #portfolio-filter li:hover,
 .portfolio #portfolio-filter li.filter-active {
     background: #343148;
-    color: #b79769;
+    color: #c55e15;
 }
 
 .portfolio .portfolio-item {
@@ -1472,7 +1482,7 @@ span.text-logo{
     font-size: 25px;
     color: #343148;
     margin-bottom: 15px;
-    border: 1px solid #b79769;
+    border: 1px solid #c55e15;
     border-radius: 50px;
 }
 
@@ -1512,7 +1522,7 @@ span.text-logo{
 
 .contact .contact-form .btn:hover {
     color: #343148;
-    background: #b79769;
+    background: #c55e15;
 }
 
 .contact .help-block ul {
@@ -1558,7 +1568,7 @@ span.text-logo{
 }
 
 .single .single-tags a:hover {
-    color: #b79769;
+    color: #c55e15;
     background: #343148;
 }
 
@@ -1673,14 +1683,14 @@ span.text-logo{
     align-items: center;
     justify-content: center;
     color: #343148;
-    background: #b79769;
+    background: #c55e15;
     font-size: 16px;
     transition: .3s;
 }
 
 .single .related-slider .owl-nav .owl-prev:hover,
 .single .related-slider .owl-nav .owl-next:hover {
-    color: #b79769;
+    color: #c55e15;
     background: #343148;
 }
 
@@ -1744,7 +1754,7 @@ span.text-logo{
 }
 
 .single .comment-text .btn:hover {
-    background: #b79769;
+    background: #c55e15;
 }
 
 .single .comment-form {
@@ -1773,13 +1783,13 @@ span.text-logo{
 
 .single .comment-form .btn {
     padding: 15px 30px;
-    color: #b79769;
+    color: #c55e15;
     background: #343148;
 }
 
 .single .comment-form .btn:hover {
     color: #343148;
-    background: #b79769;
+    background: #c55e15;
 }
 
 
@@ -1817,7 +1827,7 @@ span.text-logo{
     height: 2px;
     bottom: 0;
     left: 0;
-    background: #b79769;
+    background: #c55e15;
 }
 
 .sidebar .sidebar-widget .search-widget {
@@ -1841,7 +1851,7 @@ span.text-logo{
     height: 40px;
     padding: 0;
     font-size: 25px;
-    color: #b79769;
+    color: #c55e15;
     background: none;
     border-radius: 0;
     border: none;
@@ -1861,7 +1871,7 @@ span.text-logo{
 }
 
 .sidebar .tab-post .nav.nav-pills .nav-link {
-    color: #b79769;
+    color: #c55e15;
     background: #343148;
     border-radius: 0;
 }
@@ -1869,7 +1879,7 @@ span.text-logo{
 .sidebar .tab-post .nav.nav-pills .nav-link:hover,
 .sidebar .tab-post .nav.nav-pills .nav-link.active {
     color: #343148;
-    background: #b79769;
+    background: #c55e15;
 }
 
 .sidebar .tab-post .tab-content {
@@ -1909,7 +1919,7 @@ span.text-logo{
     content: '\f105';
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
-    color: #b79769;
+    color: #c55e15;
     left: 1px;
 }
 
@@ -1934,7 +1944,7 @@ span.text-logo{
 }
 
 .single .tag-widget a:hover {
-    color: #b79769;
+    color: #c55e15;
     background: #343148;
 }
 
@@ -2035,7 +2045,7 @@ span.text-logo{
 .footer .footer-social a i {
     margin-right: 15px;
     font-size: 20px;
-    color: #b79769;
+    color: #fcd6a3 ;
     transition: .3s;
 }
 
@@ -2068,7 +2078,7 @@ span.text-logo{
 }
 
 .footer .copyright p a {
-    color: #937b58;
+    color: #fcd6a3 ;
     font-weight: 600;
 }
 
@@ -2093,7 +2103,7 @@ span.text-logo{
     border: none !important;
 }
 .logo-color{
-    color: #b79769  !important;
+    color: #fcd6a3  !important;
 }
 .color-light-pink{
     color: #95d231 !important;
@@ -2184,7 +2194,7 @@ span.text-logo{
     }
 }
 .color-time{
-    color: #b79769;
+    color: #c55e15;
     font-weight: bold;
 }
 .left-column-day{
@@ -2327,11 +2337,11 @@ button:focus{
     background-image: linear-gradient(to right, #4a341d, #7e562c);
 }
 .service-item .btn.btn-viewmore{
-    border: 1px solid #dedede;
     margin-top: 15px;
     font-weight: 700;
-    color: #777;
+    color: #fff;
     text-transform: none;
+    background: #b08346;
 }
 
 .service .service-item:hover .btn {
@@ -2341,6 +2351,7 @@ button:focus{
 .service-item.active .btn.btn-viewmore{
     background: #fff;
     border: none;
+    color: #b08346;
 }
 
 .service .service-item:hover .btn.btn-viewmore:hover{
@@ -2367,7 +2378,7 @@ button:focus{
 }
 .modal-title{
     font-weight: bold;
-    color: #b79769;
+    color: #c55e15;
     text-transform: uppercase;
 }
 /*.service .service-item img*/
